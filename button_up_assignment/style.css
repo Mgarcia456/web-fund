@@ -1,0 +1,31 @@
+
+
+
+.button1{
+    height: 40px;
+    font-size: 30px;
+    border-radius: 50px;
+    margin: 40px;
+    border-color: aqua;
+    color: aqua;
+}
+.button2{
+    height: 40px;
+    font-size: 30px;
+    border-radius: 50px;
+    margin: 40px;
+    color:white;
+    background-color: aqua;
+    border-color: aqua;
+
+}
+
+.button3{
+  height: 40px;
+  font-size: 30px;
+  margin: 40px;
+  box-shadow:15px 15px 40px 10px black;
+  background-color: rgb(2, 75, 211);
+  color: white;
+
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Likes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- nav up top -->
+    <div class="nav">
+      <h1>Network</h1>
+
+    </div>
+    <!-- header -->
+    <div class="header">
+      <h1>Your Feed</h1>
+
+    </div>
+  <!-- main content -->
+  <div class="main">
+      <div class="col-1">
+        <div class="profile">
+          <img src="profile.png" alt="profile pic">
+          <div class="profile-content">
+          <a href="#">Add An Avatar</a>
+          <p>Miguel garcia</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-2">
+        <div class="post">
+          <div class="post-likes">
+            <div class="post-like-left">
+              <h2>Neil M</h2>
+            </div>
+            <div class="post-likes-right">
+              <p id="post-1">9</p>
+              <p>Like(s)</p>
+              <button class="btn-yellow" onclick="upVote('#post-1')">Like</button>
+            </div>
+          </div>
+          <div class="post-content">
+            <p>I just setup this new discord bot, Let me know what you all think <a href="#">link</a>.</p>
+          </div>
+
+        </div>
+        <div class="post">
+          <div class="post-likes">
+            <div class="post-like-left">
+              <h2>Nichole K</h2>
+            </div>
+            <div class="post-likes-right">
+              <p id="post-2">12</p>
+              <p>Like(s)</p>
+              <button class="btn-yellow" onclick="upVote('#post-2')">Like</button>
+            </div>
+          </div>
+          <div class="post-content">
+            <p>Just finished my <a href="#">next comic</a> check it out</p>
+          </div>
+
+        </div>
+        <div class="post">
+          <div class="post-likes">
+            <div class="post-like-left">
+              <h2>Jim R</h2>
+            </div>
+            <div class="post-likes-right">
+              <p id="post-3">9</p>
+              <p>Like(s)</p>
+              <button class="btn-yellow" id="#post-3" onclick="upVote(this.id)">Like</button>
+            </div>
+          </div>
+          <div class="post-content">
+            <p>I cant stop listening to the <a href="#">new album</a> who's liking it</p>
+          </div>
+
+        </div>
+
+
+
+      </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="script.js">
+
+  </script>
+</body>
+</html>

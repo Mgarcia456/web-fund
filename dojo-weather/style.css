@@ -1,0 +1,55 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.nav{
+  background-color: aquamarine;
+  height: 100px;
+  width: 1200px;
+  margin: 0 auto;
+}
+.city-nav{
+  background-color: blue;
+  height: 80px;
+  width: 1200px;
+  margin: 0 auto;
+  border-bottom: solid black 3px;
+}
+.weather-main{
+  background-color: rgb(240, 12, 12);
+  height: 600px;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+.box1{
+  background-color: rgb(238, 0, 255);
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  text-align: center;
+}
+.cookie-container{
+  position: fixed;
+  bottom: 100px;
+  left: 0;
+  right: 0;
+  background: white;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: solid black 3px;
+}
+.cookie-btn{
+  background-color: rgb(9, 255, 169);
+  height: 62px;
+  width: 109px;
+}

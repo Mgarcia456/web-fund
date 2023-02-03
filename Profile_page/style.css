@@ -1,0 +1,263 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins','sans-serif';
+  box-sizing: border-box;
+}
+
+body{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(119, 55, 55);
+  width: 100%;
+  height: 50px;
+  justify-content:center;
+  align-items: center;
+  position: absolute;
+  border: solid grey;
+}
+.container{
+  margin: 0px 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+a{
+  margin-left: 20px;
+}
+
+.left-column{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 100%;
+  width: 50%;
+  margin-top: 50px;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 100%;
+  width: 50%;
+  margin-top: 50px;
+}
+/* =========left column content========= */
+/* ======top of user card */
+.card{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 40%;
+  width: 80%;
+  margin-left: 100px;
+  margin-top: 46px;
+  border: solid grey;
+
+}
+.topbar1{
+  height: 100px;
+  width: 100%;
+  background-color: rgb(119, 55, 55);
+  margin-bottom: 20px;
+}
+.profile{
+  height: 150px;
+  position: absolute;
+  top: 14%;
+  left: 11%;
+}
+/* =====bottom of user card======= */
+.contextbar{
+  margin: 60px 0 0 40px;
+  display: flex;
+  flex-direction: column;
+}
+.pin{
+  height: 12px;
+  margin-right: 5px;
+}
+.gear{
+  height: 12px;
+  margin-left: -20px;
+}
+
+h2{
+  margin-bottom: 5px;
+  font-family: cursive;
+
+}
+p{
+  margin-bottom: 5px;
+  font-family: cursive;
+}
+/* =========education box============= */
+.education-box{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 30%;
+  width: 80%;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: 46px;
+  border: solid grey;
+}
+h1{
+  margin-left: 31px;
+}
+.topbar{
+  height: 50px;
+  width: 100%;
+  background-color: rgb(119, 55, 55);
+  margin-bottom: 20px;
+}
+.contextbar{
+  margin: 60px 0 0 40px;
+  display: flex;
+  flex-direction: column;
+}
+h1{
+  margin-bottom: 5px;
+  font-family: cursive;
+}
+
+/* =============right column content=========== */
+/* =============top of box connection request========== */
+.connection-request{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 24%;
+  width: 70%;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: 46px;
+  border: solid grey;
+}
+h3{
+  margin-left: 108px;
+  margin-top: 14px;
+  font-family: cursive;
+}
+/* =========== bottom of box connection request=========== */
+ul{
+  list-style: none;
+  font-size: 25px;
+}
+li{
+  margin-left: -102px;
+  font-family: cursive;
+  margin-top: 13px;
+}
+.profile2{
+  height: 35px;
+  position: absolute;
+  top: 26%;
+  left: 61%;
+}
+.profile3{
+  height: 35px;
+  position: absolute;
+  top: 20%;
+  left: 61%;
+}
+.check1{
+  height: 35px;
+  position: absolute;
+  top: 21%;
+  left: 86%;
+}
+.check2{
+  height: 35px;
+  position: absolute;
+  top: 26%;
+  left: 86%;
+}
+.xmark1{
+  height: 35px;
+  position: absolute;
+  top: 21%;
+  left: 90%;
+}
+.xmark2{
+  height: 35px;
+  position: absolute;
+  top: 26%;
+  left: 90%;
+}
+
+/* =================your connections top box========= */
+.your-connections{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 40%;
+  width: 70%;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: 46px;
+  border: solid grey;
+}
+/* =======your connections context======== */
+.profile4{
+  height: 35px;
+  position: absolute;
+  top: 50%;
+  left: 61%;
+}
+.profile5{
+  height: 35px;
+  position: absolute;
+  top: 55%;
+  left: 61%;
+}
+.profile6{
+  height: 35px;
+  position: absolute;
+  top: 60%;
+  left: 61%;
+}
+.profile7{
+  height: 35px;
+  position: absolute;
+  top: 66%;
+  left: 61%;
+}
+/* =====bottom link============= */
+.bottombarlink{
+  height: 30px;
+  width: 100%;
+  background-color: white;
+  margin-top: 66px;
+}
+/*  ============ text style for anchor tags============ */
+a{
+  color: rgb(252, 9, 122);
+  font-family: cursive;
+  text-decoration: none;
+  font-size: 20px;
+}
+/*  =============== button style============== */
+button{
+  background-color: rgb(252, 9, 122);
+  text-align: center;
+  border: solid grey;
+  height: 30px;
+  width: 82px;
+  font-size: 17px;
+  font-family: cursive;
+}
+button:hover {
+  box-shadow: 0 18px 20px 0 rgba(0,0,0,0.24), 0 19px 50px 0 rgba(0,0,0,0.19);
+}

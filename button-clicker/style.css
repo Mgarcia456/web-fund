@@ -1,0 +1,206 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins','sans-serif';
+  box-sizing: border-box;
+}
+
+body{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(111, 111, 111);
+  width: 100%;
+  height: 50px;
+  justify-content:center;
+  align-items: center;
+  position: absolute;
+  border: solid rgb(0, 0, 0);
+}
+.container{
+  margin: 0px 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+a{
+  margin-left: 20px;
+}
+
+.left-column{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 100%;
+  width: 50%;
+  margin-top: 50px;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 100%;
+  width: 50%;
+  margin-top: 50px;
+}
+/* =========left column content========= */
+/* ======top of user card */
+.card{
+  display: flex;
+  background-color: white;
+  height: 40%;
+  width: 80%;
+  margin-left: 100px;
+  margin-top: 46px;
+  border: solid rgb(0, 0, 0);
+  justify-content: space-around;
+  text-align: center;
+
+}
+.ninja-sidebar{
+  text-align: center;
+  margin-top: 18%;
+  width: 43%;
+}
+.ninja-def{
+  text-align: center;
+  margin-top: 26%;
+  justify-content: center;
+}
+.def{
+  margin-bottom: 5px;
+  font-family: cursive;
+  font-size: 2em;
+}
+
+/* =====bottom of user card======= */
+
+
+
+h2{
+  margin-bottom: 5px;
+  font-family: cursive;
+  font-size: 2em;
+
+}
+p{
+  margin-bottom: 5px;
+  font-family: cursive;
+  font-size: 1em;
+}
+/* =========education box============= */
+.education-box{
+  display: flex;
+  background-color: rgb(251, 251, 251);
+  height: 40%;
+  width: 80%;
+  text-align: center;
+  margin-left: 100px;
+  margin-top: 46px;
+  border: solid grey;
+  justify-content: space-around;
+}
+h1{
+  margin-left: 31px;
+}
+.ninja-sidebar2{
+  text-align: center;
+  margin-top: 18%;
+  border: none
+
+}
+.ninja-def2{
+  text-align: center;
+  margin-top: 26%;
+  border: none;
+  justify-content: center;
+  width: 62%;
+}
+.dojo-ninja{
+  margin-bottom: 5px;
+  font-family: cursive;
+  font-size: 2em;
+}
+
+
+/* =============right column content=========== */
+/* =============top of box connection request========== */
+.add-def{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 24%;
+  width: 55%;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: 46px;
+  border: solid rgb(2, 2, 2);
+}
+.defined{
+  margin-bottom: 5px;
+  font-family: cursive;
+  font-size: 2em;
+}
+/* =========== bottom of box connection request=========== */
+
+
+/* =================your connections top box========= */
+.your-connections{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 40%;
+  width: 70%;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: 46px;
+  border: solid rgb(6, 5, 5);
+}
+#your-defenition{
+  background-color: rgb(99, 255, 203);
+  text-align: center;
+  border: solid rgb(0, 0, 0);
+  height: 45px;
+  width: 201px;
+  font-size: 17px;
+  font-family: cursive;
+  display: inline-block;
+}
+.button-def{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.button-def button{
+  background-color: rgb(5, 177, 137);
+  color: black;
+  border: 2px solid black;
+}
+
+
+/*  ============ text style for anchor tags============ */
+a{
+  color: rgb(9, 207, 252);
+  font-family: cursive; 
+  font-size: 1em;
+}
+/*  =============== button style============== */
+button{
+  background-color: rgb(252, 228, 9);
+  text-align: center;
+  border: solid grey;
+  height: 30px;
+  width: 82px;
+  font-size: 17px;
+  font-family: cursive;
+}
